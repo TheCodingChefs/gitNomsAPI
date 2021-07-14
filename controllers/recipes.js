@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Recipe = require('../models/recipeSchema');
+const Recipe = require('../models/recipe');
 
 //INDEX //GET  //recipes
 router.get('/', (req, res, next) => {
@@ -50,3 +50,5 @@ router.delete('/:id', (req, res, next) => {
     .then(() => res.sendStatus(204))
     .catch(next);
 })
+
+module.exports = router;
