@@ -1,14 +1,14 @@
-#gitNoms API
+# gitNoms API
 
-##The API behind gitNoms, the Open Source Recipe platform!
+## The API behind gitNoms, the Open Source Recipe platform!
 ---
 
-##Technologies Used
+## Technologies Used
 
 Mongoose, MongoDB and Node.JS
 ---
 
-##Development Team
+## Development Team
 
 Steven Semco
 Collen Whitney
