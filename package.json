@@ -1,4 +1,23 @@
 {
+  "name": "gitnoms-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheCodingChefs/gitNomsAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheCodingChefs/gitNomsAPI/issues"
+  },
+  "homepage": "https://github.com/TheCodingChefs/gitNomsAPI#readme",
   "dependencies": {
     "chai": "^4.3.4",
     "cors": "^2.8.5",
@@ -7,8 +26,5 @@
     "mocha": "^9.0.2",
     "mongoose": "^5.13.2",
     "supertest": "^6.1.3"
-  },
-  "scripts": {
-    "start": "node index.js"
-}
+  }
 }
