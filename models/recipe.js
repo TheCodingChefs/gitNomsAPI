@@ -7,9 +7,10 @@ const recipeSchema = new mongoose.Schema(
         directions: { type: String, required: true },
         cuisineType: { type: String, required: true },
         author: {type : String, default:'anonymous', required: true},
+        allergens: { type: String, default: ''},
         rating: {
-            upvotes: Number,
-            downvotes: Number
+            upvotes: { type: Number, default: 0 },
+            downvotes: { type: Number, default: 0 }
         }
     },
     {
